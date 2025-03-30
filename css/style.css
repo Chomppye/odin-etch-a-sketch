@@ -1,0 +1,13 @@
+.div-container {
+   display: inline-block;
+}
+
+.Pink {
+    background-color: pink;
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+
+    max-width: 50px;
+}
