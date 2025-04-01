@@ -1,7 +1,11 @@
 body {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     background-color: gray;
+    align-content: center;
+    margin-left: 35%;
+    margin-right: 50%;
+    margin-top: 2%;
 }
 
 #div-container {
@@ -13,12 +17,17 @@ body {
     border-style: solid;
     align-content: normal;
     justify-content: center;
+    margin-top: 5%;
 }
 
-.Pink {
+.Etch {
     display: flex;
     flex: 1;
-    background-color: pink;
+    background-color: white;
     border-style: solid;
     padding: 15px;
+}
+
+#reset-button {
+    display: flex;
 }
