@@ -1,4 +1,6 @@
 let divContainer = document.querySelector("#div-container")
+let resetBtn = document.querySelector("#reset-button")
+
 
 function hover(event) {
     if (event.target.style.backgroundColor === "black") return;
@@ -15,6 +17,13 @@ function createGrid(amount) {
     }
 }
 
-
+function resetGrid() {
+    let divs = divContainer.querySelectorAll(".Etch")
+    divs.forEach((div, index ) => {
+        div.style.backgroundColor = "white"
+    })
+}
 
 createGrid(256)
+
+resetBtn.addEventListener("click", resetGrid)
