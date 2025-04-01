@@ -1,13 +1,24 @@
-.div-container {
-   display: inline-block;
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+#div-container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    width: 576px;
+    height: 656px;
+    border-style: solid;
+    align-content: normal;
+    justify-content: center;
 }
 
 .Pink {
+    display: flex;
+    flex: 1;
     background-color: pink;
-    border-radius: 2px;
-    border-color: black;
     border-style: solid;
-    padding: 5px;
-
-    max-width: 50px;
+    padding: 15px;
 }
