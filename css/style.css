@@ -28,6 +28,18 @@ body {
     padding: 15px;
 }
 
+.interactivity {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
 #reset-button {
     display: flex;
+}
+
+#change-size {
+    white-space: nowrap;
+    display: inline-block;
 }
